@@ -1,4 +1,4 @@
-### CacheMatrix
+# CacheMatrix
 
 ## Description
 
@@ -13,15 +13,21 @@ using the cached version if available.
 
 ## Usage
 
+```
 makeCacheMatrix(x)
 cacheSolve(c, ...)
+```
 
 ## Arguments
 
+```
 x   matrix
 c   CacheMatrix object
+```
 
 ## Examples
 
+```
 a <- matrix(runif(16),ncol=4)
 ai <- cacheSolve(a)
+```
